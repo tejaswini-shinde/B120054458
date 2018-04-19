@@ -48,3 +48,15 @@ place = binary_srch(arr,size,x)
 print "----Testing----"
 unittest.main()
 
+
+#For accpeting input through a file
+'''
+def main():
+	print "Enter elements."
+	a=map(int, raw_input().split())
+	print "List is created.\n"
+	key=int(raw_input("Enter searching element\n").strip())
+	binSearchObj = BinarySearch(a,key)
+	binSearchObj.perform_binary_search()
+'''
+
