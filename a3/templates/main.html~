@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title> Booth's Algorithm</title>
+	</head>
+	
+	<body>
+		<h3> Enter the numbers </h3>
+		<form action='/booths' method = 'POST'>
+			Number1 <input type = "text" name = "number1" placeholder = "Number 1">
+			Number2 <input type = "text" name = "number2" placeholder = "Number 2">
+			<input type="submit">
+		</form>
+		
+		{% if product %}
+		<h2>Result = {{product}}</h2>
+		{% endif %}	
+	</body>	
+</html>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context="com.example.tejaswini.calculator.MainActivity">
+
+    <TextView
+        android:id="@+id/resultBox"
+        android:layout_width="350dp"
+        android:layout_columnSpan="4"
+        android:layout_marginBottom="13dp"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/ansBox"
+        android:layout_width="350dp"
+        android:layout_columnSpan="4"
+        android:layout_marginBottom="13dp"
+        android:textSize="23dp" />
+
+    <Button
+        android:text="1"
+
+        android:onClick="numberPressed"
+        />
+
+    <Button
+
+        android:text="2"
+        android:onClick="numberPressed"/>
+
+    <Button
+        android:text="3"
+        android:onClick="numberPressed"
+        />
+
+    <Button
+        android:id="@+id/plus"
+        android:onClick="opip"
+        android:text="+" />
+
+    <Button
+        android:text="4"
+        android:onClick="numberPressed"/>
+
+    <Button
+        android:text="5"
+        android:onClick="numberPressed"
+        />
+
+    <Button
+        android:text="6"
+        android:onClick="numberPressed"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:onClick="opip"
+        android:text="-" />
+    <Button
+        android:text="7"
+        android:onClick="numberPressed"/>
+
+    <Button
+        android:text="8"
+        android:onClick="numberPressed"/>
+
+    <Button
+        android:text="9"
+        android:onClick="numberPressed"/>
+
+    <Button
+        android:id="@+id/mul"
+        android:text="*"
+    android:onClick="opip"/>
+
+    <Button
+        android:id="@+id/dot"
+        android:text="."
+        android:onClick="numberPressed"
+        />
+
+    <Button
+        android:text="0"
+        android:onClick="numberPressed"/>
+
+    <Button
+        android:id="@+id/equal"
+        android:text="="
+        android:onClick="result"
+        />
+
+    <Button
+        android:id="@+id/div"
+        android:text="/"
+        android:onClick="opip"
+         />
+    <Button
+        android:id="@+id/sin"
+        android:text="sin"
+        android:onClick="opip"
+        />
+    <Button
+        android:id="@+id/cos"
+        android:text="cos"
+        android:onClick="opip"
+        />
+    <Button
+        android:id="@+id/tan"
+        android:text="tan"
+        android:onClick="opip"
+         />
+    <Button
+        android:id="@+id/sqrt"
+        android:text="SQRT"
+        android:onClick="opip"
+        />
+    <Button
+        android:id="@+id/prev"
+        android:text="prev"
+        android:onClick="prev"
+        />
+    <Button
+        android:id="@+id/hist"
+        android:text="recall"
+        android:onClick="memory"
+        />
+    <Button
+        android:id="@+id/next"
+        android:text="next"
+        android:onClick="next"
+        />
+
+    <Button
+        android:id="@+id/clear"
+        android:text="clear"
+        android:onClick="clear"
+        />
+
+
+</GridLayout>
